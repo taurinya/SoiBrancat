@@ -1,0 +1,117 @@
+/* Adjustments */
+
+h2 {
+color: #414141;
+}
+
+/* Sprites */
+
+.sprite {
+	background: url(../img/sprite.png);
+	margin: 10px 10px 10px 10px;
+}
+
+.partnersFirstRow {
+	margin: 0 10px 10px 10px;
+}
+
+.partnersThirdRow {
+	margin: 10px 10px 0 10px;
+}
+
+.partenaires {
+	height: 55px;
+}
+
+.regionLR {
+	width: 103px;
+	background-position: 0px 0px;
+}
+
+.villeBeziers {
+	width: 70px;
+	background-position: -109px 0px;
+}
+
+.regionA {
+	width: 252px;
+	background-position: -183px 0px;
+}
+
+.regionMP {
+	width: 55px;
+	background-position: 0px -60px;
+}
+
+.cgPO {
+	width: 44px;
+	background-position: -61px -60px;
+}
+
+.cgAran {
+	width: 305px;
+	background-position: -115px -60px;
+}
+
+.regionRA {
+	width: 283px;
+	background-position: 0px -120px;
+}
+
+.regionPC {
+	width: 115px;
+	background-position: -285px -120px;
+}
+
+/* Quotes symbols */
+
+.quotGlyph {
+	float: left;
+	height: 60px;
+	width: 77px;
+	background-position: 0px -200px;
+}
+
+
+/* End sprites */
+
+
+#logo {
+	margin: 10px 0 0 0;
+	width: 560px;
+	height: 108px;
+	background: url(../img/logo/logo.png) no-repeat;
+}
+
+.searchContainer {
+	margin : 30px 0 50px 0;
+	height: 86px;
+	background-color: #ECF0F1;
+	border-radius: 3px;
+
+}
+
+.searchBox {
+	background: #FFFFFF;
+	border: 1px solid #C7C7C7;
+	height: 66px;
+}
+
+.space {
+	margin: 30px 0 0 0;
+}
+
+.end {
+	margin: 30px 0 30px 0;
+}
+
+.quote {
+	width: 545px;
+	height: 300px;
+}
+
+.quote p {
+	margin: 10px 10px 10px 60px;
+	font-size: 30px;
+	line-height: 30px;
+}

@@ -1,0 +1,121 @@
+<div class="row">
+			<div class="small-12 large-centered columns description">
+				<h6>Description</h6>
+				<ul class="first">
+					<li class="subtitle">Titre complet</li>
+						<li class="infoo align">Passejado dal 17 d'octobre 1884 a la groto de Minerbo / Achilo Mir</li>
+					<li class="subtitle">Date d'édition</li>
+						<li class="infoo align">1884</li>
+					<li class="subtitle">Type de document</li>
+						<li class="infoo align">manuscrit</li>
+					<li class="subtitle">Droits</li>
+						<li class="infoo align">Domaine public</li>
+					<li class="subtitle">Sujet(s)</li>
+						<li class="infoo">Cesseras (Hérault) </li>
+						<li class="infoo">Minerve (Hérault)</li>
+						<li class="infoo">Grottes</li>
+						<li class="infoo">Grotte de la Coquille</li>
+						<li class="infoo align">Se canta</li>
+					<li class="subtitle">Licence :</li>
+						<li class="infoo">Sous licence creative commons : <br/>
+						http://creativecommons.fr/licences/les-6-licences/</li>
+				</ul>
+
+				<ul>
+					<li class="subtitle">Auteur(s)</li>
+						<li class="info align">Mir, Achille (1822-1901)</li>
+					<li class="subtitle">Langue(s)</li>
+						<li class="info align">oci</li>
+					<li class="subtitle">Format original</li>
+						<li class="info align">11 p.</li>
+					<li class="subtitle">Localisation du document</li>
+						<li class="info align">Lo CIRDÒC - Médiathèque occitane, Béziers. Fonds du Collège d'Occitanie. Cote : CQ408. <br/>
+						(Extrait d'un recueil de poèmes de 220 page ; p.122)</li>
+					<li class="subtitle">Périmètre spatial et temporel</li>
+						<li class="info">Hérault (France)</li>
+						<li class="info align">18..</li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="row">
+			<div class="large-6 columns partage">
+				<h6>Partagez</h6>
+				<p>Si vous le souhaitez, vous pouvez partager cette ressource sur les réseaux sociaux :</p>
+				<div class="social">
+					<a href="#"><img src="img/fb.png" class="socialimg"/></a>
+					<a href=""><img src="img/tweet.png" class="socialimg"/></a>
+				</div>
+			</div>
+			<div class="large-6 columns comment">
+				<h6>Commentez</h6>
+			</div>
+		</div>
+
+
+
+
+		<footer>
+	<div class="row">
+			<div class="small-8 large-centered columns">
+				<ul>
+				<li><img src="http://placehold.it/80x80"></li>
+				<li><img src="http://placehold.it/80x80"></li>
+				<li><img src="http://placehold.it/80x80"></li>
+				<li><img src="http://placehold.it/80x80"></li>
+				<li><img src="http://placehold.it/80x80"></li>
+				</ul>    
+			</div>
+	</div>
+</footer>
+
+
+
+
+
+
+	<div class="row">
+		<div class="large-6 columns breadcrumb">
+	  		<p>Accueil >> Ressource</p>
+	 	</div>
+	 </div>
+
+	<div class="row">
+	<div class="small-12 large-centered columns content">
+		<div class="row">
+			<div class="ressourcetitre">
+				<div class="large-10 columns"><h5>Les cahiers de Max Rouquette - Mars 2007</h5></div>
+				<div class="large-2 columns icones">
+					<img  src="img/icone1.png">
+				  	<img  src="img/contrib.png">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 large-centered columns">
+				<div class="visionneuse"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 large-centered columns">
+				<div class="presentation">
+					<h6>Présentation</h6>
+				</div>
+					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.
+
+Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+			</div>
+		</div>
+		
+	</div>
+	</div>

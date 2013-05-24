@@ -101,6 +101,33 @@ h6 {
 
 /* End sprites */
 
+.contain-to-grid{
+	background: #414141;
+}
+
+nav.top-bar{
+	background: #414141;
+}
+
+.top-bar-section li a:not(.button){
+	background: #414141;
+}
+
+.top-bar-section li a:hover:not(.button){
+	background: #C0392B;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-bottom: none;
+	border-top: none;
+	border-right: solid 1px #6A6A6A;
+	border-left: solid 0px;
+	clear: none;
+	height: 45px;
+	width: 0px;
+}
+
+
 
 #logo {
 	margin: 10px 0 0 0;

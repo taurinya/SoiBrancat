@@ -18,6 +18,18 @@ h4{
 	margin-top: 0;
 }
 
+h5 {
+	font-size: 28px;
+	color: #C0392B;
+}
+
+h6 {
+	font-size: 24px;
+	color: #C0392B;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
 /* Sprites */
 
 .sprite {
@@ -282,18 +294,6 @@ padding: 0;
 
 /* RESSOURCE */
 
-h5 {
-	font-size: 28px;
-	color: #C0392B;
-}
-
-h6 {
-	font-size: 20px;
-	color: #C0392B;
-	padding-top: 10px;
-	margin-left: 20px;
-}
-
 .content {
 	background: #FAFAFA;
 }
@@ -309,30 +309,63 @@ h6 {
 
 .visionneuse {
 	height: 800px;
-	background: #A1A1A1;
+	background: #F2F2F2;
 	margin-top: 20px;
 }
 
 .presentation {
 	height: 300px;
-	background: #A1A1A1;
+	background: #F2F2F2;
 	margin: 30px 0 0 0;
 }
 
+.presentation p{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
 .descrip {
-	height: 500px;
-	background: #A1A1A1;
+	background: #F2F2F2;
 	margin: 30px 0 0 0;
+}
+
+.descrip ul {
+	list-style-type: none;
+}
+
+.subtitle {
+	font-weight: bold;
+	padding-left: 40px;
+}
+
+.descrip .info {
+	padding-left: 60px;
 }
 
 .partage {
 	height: 250px;
-	background: #A1A1A1;
+	background: #F2F2F2;
 	margin: 30px 0 0 0;
+}
+
+.partage p{
+	padding-left: 20px;
+	padding-right: 100px;
+	text-align: justify;
+}
+
+.social {
+	margin-top: 40px;
+	margin-left: 90px;
+}
+
+.socialimg{
+	margin-left: 40px;
 }
 
 .comment {
 	height: 250px;
-	background: #A1A1A1;
+	background: #F2F2F2;
 	margin: 30px 0 0 0;
 }

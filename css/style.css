@@ -330,17 +330,35 @@ padding: 0;
 	margin: 30px 0 0 0;
 }
 
-.descrip ul {
-	list-style-type: none;
+.descrip ul{
+		list-style-type: none;
+}
+
+.descrip .first {
+	float: left;
+	padding-right: 60px;
 }
 
 .subtitle {
 	font-weight: bold;
+	padding-left: 20px;
+}
+
+.descrip .infoo{
 	padding-left: 40px;
 }
 
 .descrip .info {
-	padding-left: 60px;
+	padding-left: 600px;
+	padding-right: 30px;
+}
+
+.info.align{
+	padding-bottom: 10px;
+}
+
+.infoo.align{
+	padding-bottom: 10px;
 }
 
 .partage {

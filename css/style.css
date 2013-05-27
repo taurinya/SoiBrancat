@@ -1,5 +1,10 @@
 /* Adjustments */
 
+h1{
+	font-size: 36px;
+	color: #C0392B;
+}
+
 h2 {
 color: #414141;
 }
@@ -328,10 +333,15 @@ padding: 0;
 }
 
 
-/* RESSOURCE */
+/* ITEM */
 
 
 .type{
-	line-height: 60px;
+	line-height: 50px;
 	text-align: right;
+}
+
+.visionneuse{
+	background: #F1F1F1;
+	height: 600px;
 }

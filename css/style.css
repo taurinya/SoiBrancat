@@ -149,6 +149,15 @@ nav.top-bar{
 
 }
 
+input[type="text"].champ {
+	width: 600px;
+}
+
+.search{
+	margin-top: 22px;
+	margin-left: 50px;
+}
+
 .searchBox {
 	background: #FFFFFF;
 	border: 1px solid #C7C7C7;
@@ -223,6 +232,11 @@ input[type="text"] {
 	color: #000;
 }
 
+button:active, .button:active {
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2) inset; 
+}
+
 .f-dropdown li a:hover{
 	color: #FFF;
 	background-color: #C0392B;
@@ -232,6 +246,7 @@ input[type="text"] {
 	background-color:  #FFF;
 	color: #C0392B;
 }
+
 
 .dropdown.button:before{
 	border-color: #000 transparent transparent transparent;

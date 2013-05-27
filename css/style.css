@@ -348,5 +348,20 @@ padding: 0;
 
 .presentation{
 	background: #F1F1F1;
-	height: 400px;
+	height: 300px;
+}
+
+.description{
+	background: #F1F1F1;
+	height:400px;
+}
+.partage{
+	background: #F1F1F1;
+	height: 250px;
+}
+
+.commentaire{
+	background: #F1F1F1;
+	height: 250px;
+
 }

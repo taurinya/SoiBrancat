@@ -11,11 +11,11 @@ color: #414141;
 
 h3{
 	font-size: 28px;
-	color: #C0392B;
+	color: #414141;
 }
 
 h3:hover {
-	color: #e74c3c;
+	color: #6c6c6c;
 }
 
 h4{
@@ -364,4 +364,8 @@ padding: 0;
 	background: #F1F1F1;
 	height: 250px;
 
+}
+
+.newsletter {
+	background-color: red;
 }

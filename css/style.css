@@ -197,6 +197,15 @@ input[type="text"] {
 	height:40px;
 }
 
+.breadcrumbs a{
+	color:#C0392B;
+}
+
+.nbredoc{
+	text-align: right;
+}
+
+
 .button{
 	height: 40px;
 	background-color:#FFF;

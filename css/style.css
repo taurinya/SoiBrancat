@@ -329,3 +329,9 @@ padding: 0;
 
 
 /* RESSOURCE */
+
+
+.type{
+	line-height: 60px;
+	text-align: right;
+}

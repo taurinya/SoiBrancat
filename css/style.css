@@ -400,7 +400,7 @@ padding: 0;
 /* RESSOURCES */
 
 .panel{
-	height: 350px;
+	height: 343px;
 	background: #F2F2F2;
 	border: 1px solid #C0392B;
 	border-radius: 3px;
@@ -412,4 +412,19 @@ padding: 0;
 	padding: 0;
 	height: 50px;
 	background: #C0392B;
+	opacity: 0;
 }
+
+p.lien{
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	color:#FFF;
+	font-size: 25px;
+}
+
+.moisson:hover{
+	transition:1s;
+	opacity: 1;
+}
+

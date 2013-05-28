@@ -401,30 +401,14 @@ padding: 0;
 
 .panel{
 	height: 343px;
-	background: #F2F2F2;
+	background: url("../img/imgg.png");
 	border: 1px solid #C0392B;
 	border-radius: 3px;
 	padding: 0;
 }
 
 .moisson{
-	margin: 0;
-	padding: 0;
-	height: 50px;
+	height: 343px;
 	background: #C0392B;
-	opacity: 0;
+	visibility: hidden;
 }
-
-p.lien{
-	text-align: center;
-	line-height: 45px;
-	font-weight: bold;
-	color:#FFF;
-	font-size: 25px;
-}
-
-.moisson:hover{
-	transition:1s;
-	opacity: 1;
-}
-

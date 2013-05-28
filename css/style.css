@@ -395,3 +395,21 @@ padding: 0;
 .newsletter {
 	background-color: red;
 }
+
+
+/* RESSOURCES */
+
+.panel{
+	height: 350px;
+	background: #F2F2F2;
+	border: 1px solid #C0392B;
+	border-radius: 3px;
+	padding: 0;
+}
+
+.moisson{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	background: #C0392B;
+}

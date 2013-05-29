@@ -28,6 +28,11 @@ h5 {
 	color: #C0392B;
 }
 
+h6{
+	margin-top:20px;
+	font-size: 20px;
+}
+
 /* Sprites */
 
 .sprite {
@@ -460,4 +465,26 @@ li:hover .moisson {
 	transition: 0.5s;
 	background: rgba(0, 0, 0, 0.5);
 	opacity: 1;
+}
+
+
+/* INDEX */
+
+.newsletter {
+	height: 194px;
+}
+
+.newsletter label {
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.newsletter input {
+	height: 20px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.newsletter input[type="submit"] {
+	margin-left: 255px;
 }

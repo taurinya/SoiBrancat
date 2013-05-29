@@ -151,6 +151,10 @@ input[type="text"].champ {
 .search{
 	width: 880px;
 	margin: auto;
+}
+
+.searchBox {
+	background: #FFFFFF;
 	padding: 12px 0 0 0;
 }
 
@@ -323,18 +327,30 @@ padding: 0;
 .panel { 
 	height: 343px;
 	background: url("../img/imgg.png");
-	border: 1px solid #C0392B;
-	border-radius: 3px;
 	padding: 0;
 }
 
 .moisson {
 	height: 343px;
-	background: #C0392B;
+	background: #000;
 	opacity: 0;
+	text-align: center;
 }
 
 .panel:hover .moisson {
-	transition: 0.5s;
-	opacity: 1;
+	transition:0.5s;
+	opacity: 0.7;
 }
+
+.moissonage {
+	line-height: 100px;
+}
+
+.moisson p {
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+

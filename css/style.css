@@ -390,22 +390,15 @@ padding: 0;
 	height: 343px;
 	background: #000;
 	opacity: 0;
+	text-align: center;
 }
 
 .panel:hover .moisson {
-	text-align: center;
-	line-height: 45px;
-	font-weight: bold;
-	color:#FFF;
-	font-size: 25px;
-}
-
-.panel:hover .moisson{
-	transition: 0.5s;
+	transition:0.5s;
 	opacity: 0.7;
 }
 
-.moissonage{
+.moissonage {
 	line-height: 100px;
 }
 
@@ -416,6 +409,4 @@ padding: 0;
 	text-align: center;
 }
 
-.icone {
-	margin-left: 133px;
-}
+

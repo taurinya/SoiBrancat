@@ -96,6 +96,58 @@ h5 {
 	background-position: 0px -200px;
 }
 
+/* Contributeurs */
+
+.contributeurs {
+	height: 150px;
+}
+
+.inOc {
+	width: 112px;
+	background-position: 0px -280px;
+}
+
+.cirdoc {
+	width: 168px;
+	background-position: -120px -280px;
+}
+
+.espacio {
+	width: 190px;
+	background-position: -300px -280px;
+}
+
+.univTL {
+	width: 104px;
+	background-position: -130px -530px;
+}
+
+.comdt {
+	width: 136px;
+	background-position: 0px -530px;
+}
+
+.bibTL {
+	width: 112px;
+	background-position: -240px -530px;
+}
+
+.tresOc {
+	width: 346px;
+	height: 90px;
+	background-position: 0px -440px;
+}
+
+.bfm {
+	width: 220px;
+	height: 90px;
+	background-position: -360px -440px;
+}
+
+.detz {
+	width: 224px;
+	background-position: -350px -530px;
+}
 
 /* End sprites */
 
@@ -150,6 +202,7 @@ input[type="text"].champ {
 
 .search{
 	width: 880px;
+	padding: 13px 0 0 0;
 	margin: auto;
 }
 

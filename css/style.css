@@ -363,40 +363,13 @@ padding: 0;
 	text-align: right;
 }
 
-.visionneuse{
-	background: #F1F1F1;
-	height: 600px;
-}
-
-.presentation{
-	background: #F1F1F1;
-	height: 300px;
-}
-
-.description{
-	background: #F1F1F1;
-	height:400px;
+.itemBG {
+	background-color: #F1F1F1;
 }
 
 .description ul{
 	list-style-type: none;
 	font-weight: bold;
-}
-
-.keywords{
-	background: #F1F1F1;
-	height:100px;
-}
-
-.partage{
-	background: #F1F1F1;
-	height: 250px;
-}
-
-.commentaire{
-	background: #F1F1F1;
-	height: 250px;
-
 }
 
 .newsletter {

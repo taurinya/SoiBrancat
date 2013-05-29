@@ -379,21 +379,34 @@ padding: 0;
 
 /* RESSOURCES */
 
-.panel{
+.panel {
 	height: 343px;
 	background: url("../img/imgg.png");
-	border: 1px solid #C0392B;
-	border-radius: 3px;
 	padding: 0;
 }
 
-.moisson{
+.moisson {
 	height: 343px;
-	background: #C0392B;
+	background: #000;
 	opacity: 0;
 }
 
-.panel:hover .moisson{
+.panel:hover .moisson {
 	transition: 0.5s;
-	opacity: 1;
+	opacity: 0.7;
+}
+
+.moissonage{
+	line-height: 100px;
+}
+
+.moisson p {
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.icone {
+	margin-left: 133px;
 }

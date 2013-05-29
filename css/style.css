@@ -458,10 +458,13 @@ li.bloc10 {
 
 li:hover .moisson {	
 	transition: 0.5s;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	opacity: 1;
 }
 
+li .moisson {
+	transition: 0.5s;
+}
 
 /* INDEX */
 

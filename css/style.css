@@ -492,3 +492,11 @@ li:hover .moisson {
 	height: 200px;
 }
 
+.reseau{
+	text-align: center;
+}
+
+.reseau p{
+	font-weight: bold;
+	font-style: italic;
+}

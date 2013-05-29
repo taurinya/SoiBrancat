@@ -31,6 +31,7 @@ h5 {
 h6{
 	margin-top:20px;
 	font-size: 20px;
+	margin-left: 20px;
 }
 
 /* Sprites */
@@ -418,7 +419,9 @@ li:hover .moisson {
 /* INDEX */
 
 .newsletter {
-	height: 194px;
+	background: #F1F1F1;
+	border-top: 30px solid #C0392B;
+	height: 200px;
 }
 
 .newsletter label {
@@ -433,5 +436,12 @@ li:hover .moisson {
 }
 
 .newsletter input[type="submit"] {
-	margin-left: 255px;
+	margin-left: 400px;
 }
+
+.social{
+	background: #F1F1F1;
+	border-top: 30px solid #C0392B;
+	height: 200px;
+}
+

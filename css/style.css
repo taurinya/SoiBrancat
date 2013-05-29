@@ -380,33 +380,87 @@ padding: 0;
 /* RESSOURCES */
 
 
-.panel { 
-	height: 343px;
-	background: url("../img/imgg.png");
+li.bloc1 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc2 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc3 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc4 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc5 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc6 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc7 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc8 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc9 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
+	padding: 0;
+}
+
+li.bloc10 {
+	background: url("../img/essai.jpg") no-repeat;
+	height: 200px;
 	padding: 0;
 }
 
 .moisson {
-	height: 343px;
-	background: #000;
+	width: 200px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0);
 	opacity: 0;
-	text-align: center;
-}
-
-.panel:hover .moisson {
-	transition:0.5s;
-	opacity: 0.7;
-}
-
-.moissonage {
-	line-height: 100px;
-}
-
-.moisson p {
-	font-size: 28px;
-	font-weight: bold;
 	color: #FFF;
 	text-align: center;
 }
 
+.moisson p {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
 
+.webressource p {
+	padding-top: 30px;
+}
+
+li:hover .moisson {	
+	transition: 0.5s;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}

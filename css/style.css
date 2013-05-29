@@ -324,16 +324,9 @@ padding: 0;
 
 /* RESSOURCES */
 
-<<<<<<< HEAD
-
 li.bloc1 {
 	background: url("../img/essai.jpg") no-repeat;
 	height: 200px;
-=======
-.panel { 
-	height: 343px;
-	background: url("../img/imgg.png");
->>>>>>> 4a24c1ceeb2ce1ea21667c938824558132060d6c
 	padding: 0;
 }
 

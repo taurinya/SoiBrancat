@@ -14,7 +14,7 @@ h2 {
 
 h3{
 	font-size: 28px;
-	color: #C0392B;
+	color: #414141;
 }
 
 h3:hover {
@@ -379,6 +379,11 @@ padding: 0;
 .type {
 	line-height: 50px;
 	text-align: right;
+}
+
+.listing {
+	list-style-type: none;
+	font-weight: bold;
 }
 
 /* RESSOURCES */

@@ -1,4 +1,7 @@
 /* Adjustments */
+body{
+	background:#E8E8E8;
+}
 
 h1{
 	font-size: 36px;
@@ -11,7 +14,7 @@ h2 {
 
 h3{
 	font-size: 28px;
-	color: #414141;
+	color: #C0392B;
 }
 
 h3:hover {
@@ -498,10 +501,7 @@ li .moisson {
 }
 
 .social {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
 	height: 200px;
-	box-shadow: 2px 2px 20px #888;
 }
 
 .reseau {
@@ -514,27 +514,15 @@ li .moisson {
 }
 
 .help {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
 	height: 200px;
-	box-shadow: 2px 2px 20px #888;
 }
 
 .question {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
 	height: 200px;
-	box-shadow: 2px 2px 20px #888;
 }
 
-.parters {
+.mainBlock{
 	border-top: 30px solid #C0392B;
-	background: #F1F1F1;
-	box-shadow: 2px 2px 20px #888;
-}
-
-.agenda {
-	border-top: 30px solid #C0392B;
-	background: #F1F1F1;
+	background: #FFF;
 	box-shadow: 2px 2px 20px #888;
 }

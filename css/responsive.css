@@ -1,0 +1,46 @@
+/* Medium screens */
+@media only screen and (max-width: 1279px) and (min-width: 768px) { 
+
+	input[type="text"] {
+		border-radius: 0px;
+	}
+
+}
+
+@media only screen and (max-width:1279) {
+
+	.quote {
+		width: 200px;
+		height: 0px;
+
+	}
+}
+
+
+/* Medium screens on lanscape orientation */
+@media only screen and (max-width: 1279px) and (min-width: 768px) and (orientation: portrait) {
+
+
+
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) { 
+
+	
+
+}
+
+/* Small Screens Landscape Orientation */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+}
+
+/* Small Screens Portrait Orientation */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+	
+
+}

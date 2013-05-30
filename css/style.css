@@ -178,8 +178,6 @@ nav.top-bar{
 	border-right: solid 1px #6A6A6A;
 	border-left: solid 0px;
 	clear: none;
-	height: 45px;
-	width: 0px;
 }
 
 
@@ -506,3 +504,5 @@ li .moisson {
 	box-shadow: 2px 2px 20px #888;
 	padding: 0 15px 0 15px;
 }
+
+

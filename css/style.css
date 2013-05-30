@@ -355,8 +355,6 @@ padding: 0;
 }
 
 .line {
-	margin-left: 240px;
-	width: 1100px;
 	height: 1px;
 	background-color: #333;
 	border: 1px outset #DDD;

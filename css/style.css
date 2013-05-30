@@ -160,6 +160,7 @@ h5 {
 	background: #414141;
 }
 
+
 nav.top-bar{
 	background: #414141;
 }
@@ -178,10 +179,7 @@ nav.top-bar{
 	border-right: solid 1px #6A6A6A;
 	border-left: solid 0px;
 	clear: none;
-	height: 45px;
-	width: 0px;
 }
-
 
 
 #logo {

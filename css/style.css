@@ -222,7 +222,7 @@ input[type="text"].champ {
 .quote {
 	border-top: 30px solid #C0392B;
 	width: 545px;
-	background: #F1F1F1;
+	background: #FFFFFF;
 	height: 352px;
 	box-shadow: 2px 2px 20px #888;
 }
@@ -475,35 +475,6 @@ li .moisson {
 
 /* INDEX */
 
-.newsletter {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
-	height: 200px;
-	box-shadow: 2px 2px 20px #888;
-}
-
-.newsletter label {
-	margin-left: 30px;
-	font-weight: bold;
-}
-
-.newsletter input {
-	height: 20px;
-	margin-left: 30px;
-	font-weight: bold;
-}
-
-.newsletter input[type="submit"] {
-	margin-left: 300px;
-}
-
-.social {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
-	height: 200px;
-	box-shadow: 2px 2px 20px #888;
-}
-
 .reseau {
 	text-align: center;
 }
@@ -513,28 +484,10 @@ li .moisson {
 	font-style: italic;
 }
 
-.help {
-	background: #F1F1F1;
-	border-top: 30px solid #C0392B;
-	height: 200px;
-	box-shadow: 2px 2px 20px #888;
-}
 
-.question {
-	background: #F1F1F1;
+.mainBlock {
 	border-top: 30px solid #C0392B;
-	height: 200px;
+	background: #FFFFFF;
 	box-shadow: 2px 2px 20px #888;
-}
-
-.parters {
-	border-top: 30px solid #C0392B;
-	background: #F1F1F1;
-	box-shadow: 2px 2px 20px #888;
-}
-
-.agenda {
-	border-top: 30px solid #C0392B;
-	background: #F1F1F1;
-	box-shadow: 2px 2px 20px #888;
+	padding: 0 15px 0 15px;
 }

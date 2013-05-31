@@ -196,13 +196,12 @@ nav.top-bar{
 	border-radius: 3px;
 	box-shadow: 2px 2px 20px #888;
 }
-
+/*
 input[type="text"].champ {
 	width: 650px;
-}
+}*/
 
 .search{
-	width: 880px;
 	padding: 13px 0 0 0;
 	margin: auto;
 }
@@ -254,18 +253,13 @@ footer ul li {
 
 /* RECHERCHE */
 
-
-input[type="text"] {
-	width: 300px;
-	height:40px;
-}
-
 .breadcrumbs a {
 	color:#C0392B;
 }
 
 .nbredoc {
 	text-align: right;
+	font-size: 20px;
 }
 
 
@@ -447,8 +441,8 @@ li.bloc10 {
 }
 
 .moisson {
-	width: 200px;
-	height: 200px;
+	width: inherit;
+	height: inherit;
 	background: rgba(0, 0, 0, 0);
 	opacity: 0;
 	color: #FFF;

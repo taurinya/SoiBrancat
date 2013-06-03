@@ -246,6 +246,11 @@ footer img {
 	margin-top:40px;
 }
 
+footer .suppad{
+	padding-left:0;
+	padding-right: 0;
+}
+
 /* RECHERCHE */
 
 .breadcrumbs a {

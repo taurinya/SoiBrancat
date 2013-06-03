@@ -241,14 +241,9 @@ footer {
 	background-color: #000;
 }
 
-footer ul {
-	list-style-type: none;
-	margin-top: 20px;
-}
-
-footer ul li {
-	float: left;
-	padding-right: 50px;
+footer img {
+	margin-left:50px;
+	margin-top:40px;
 }
 
 /* RECHERCHE */

@@ -460,6 +460,7 @@ padding: 0;
 .category:hover .imgcategory {
     opacity: 0;
 }
+
 .category img {
    transition: opacity 0.5s;
 }

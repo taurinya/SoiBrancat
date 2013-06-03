@@ -18,15 +18,15 @@
 		<div class="contain-to-grid">
 			<nav class="top-bar">
 				<ul class="title-area">
-				<li class="name">
-					<img src="img/logotype.png">
-				</li>
-				<li class="toggle-topbar menu-icon">
-					<a href="#"><span>Menu</span></a>
-				</li>
-			</ul>
+					<!-- Title Area -->
+					<li class="name">
+						<img src="img/logotype.png">
+					</li>
+					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				</ul>
 
-		 	<section class="top-bar-section">
+				<section class="top-bar-section">
 					<ul class="right">
 						<li class="divider"></li>
 						<li class="active"><a href="#">Ressources</a></li>
@@ -51,27 +51,38 @@
 						</li>
 					</ul>
 				</section>
-		</nav>
-	</div>
-	
-	<!-- LOGO ET RECHERCHE -->
+			</nav>
+		</div>
+
+	<!-- logo & search -->
 
 	<div class="row">
-	  <div class="small-6 large left columns logoMin"></div>
-	  <div class="small-6 large right columns recherche">
-	  	<div class="row">
-			<a href="#" data-dropdown="drop1" class="button dropdown small-3 columns">Type</a>
-			<ul id="drop1" class="f-dropdown">
-			  <li><a href="#">Manuscrits</a></li>
-			  <li><a href="#">Musique</a></li>
-			  <li><a href="#">Vidéo</a></li>
-			</ul>	  	
-			<input type="text" class="small-3 columns"/>
-			<a href="#" class="button">OK</a>
+		<div class="small-10 small-centered large-6 large-centered columns">
+			<div id="logo"></div>
 		</div>
-	  </div>
 	</div>
-<br /><br />
+	<div class="row">
+		<div class="small-12 large-10 large-centered columns searchContainer">
+	  		<div class="row">
+	  			<div class="search">
+	  			<div class="small-2 columns">
+	  				<a href="#" data-dropdown="drop1" class="button dropdown">Type</a>
+					<ul id="drop1" class="f-dropdown">
+						  <li><a href="#">Manuscrits</a></li>
+						  <li><a href="#">Musique</a></li>
+						  <li><a href="#">Vidéo</a></li>
+					</ul>
+	  			</div>
+	  			<div class="small-8 columns">
+	  				<input style="height: 40px;" type="text"/>
+	  			</div>
+	  			<div class="small-2 columns">
+	  				<a href="#" class="button">OK</a>
+	  			</div>
+	  		</div>
+			</div>
+		</div>
+	</div>
 	
 	<div class="row">
 		<div class="large-4 columns space">

@@ -19,67 +19,68 @@
 		<div class="contain-to-grid">
 			<nav class="top-bar">
 				<ul class="title-area">
-				<li class="name">
-					<img src="img/logotype.png">
-				</li>
-				<li class="toggle-topbar menu-icon">
-					<a href="#"><span>Menu</span></a>
-				</li>
-			</ul>
-
-<section class="top-bar-section">
-				<ul class="right">
-					<li class="divider"></li>
-					<li class="active"><a href="#"> Ressources </a></li>
-					<li class="divider"></li>
-					<li class="has-dropdown"><a href="#"> Services </a>
-						<ul class="dropdown">
-									<li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
-									<li><a href="#">Vidas</a></li>
-									<li><a href="#">Répertoire du patrimoine Culturel</a></li>
-									<li><a href="#">Catalogue collectif</a></li>
-									<li><a href="http://www.laportadoc.eu/">La Pòrta d'Òc</a></li>
-									<li><a href="#">Service Question-Réponse</a></li>
-						</ul>
+					<!-- Title Area -->
+					<li class="name">
+						<img src="img/logotype.png">
 					</li>
-					<li class="divider"></li>
-					<li><a href="#"> Partenaires </a></li>
-					<li class="divider"></li>
-					<li class="has-dropdown"><a href="#"> A propos </a>
+					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				</ul>
+
+				<section class="top-bar-section">
+					<ul class="right">
+						<li class="divider"></li>
+						<li><a href="#">Ressources</a></li>
+						<li class="divider"></li>
+						<li class="has-dropdown"><a href="#">Services</a>
+							<ul class="dropdown">
+								<li><a href="#">Vidas</a></li>
+								<li><a href="#">Répertoire du patrimoine Culturel</a></li>
+								<li><a href="#">Catalogue collectif</a></li>
+								<li><a href="http://www.laportadoc.eu/">La Pòrta d'Òc</a></li>
+								<li><a href="#">Service Question-Réponse</a></li>
+							</ul>
+						</li>
+						<li class="divider"></li>
+						<li class=""><a href="#">Partenaires</a>
+						<li class="divider"></li>
+						<li class="has-dropdown"><a href="#">A Propos</a>
 							<ul class="dropdown">
 								<li><a href="#">Qu'est-ce que c'est ?</a></li>
 								<li><a href="#">Contactez-nous</a></li> 
 							</ul>
-					</li>
-					<li class="divider"></li>
-				</ul>
-		    </section>
+						</li>
+					</ul>
+				</section>
+			</nav>
+		</div>
 
-		</nav>
-	</div>
-	
-	<!-- LOGO ET RECHERCHE -->
+	<!-- logo & search -->
 
 	<div class="row">
-		<div class="small-6 large-centered columns">
+		<div class="small-10 small-centered large-6 large-centered columns">
 			<div id="logo"></div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-10 small-centered columns searchContainer">
+		<div class="small-12 large-10 large-centered columns searchContainer">
 	  		<div class="row">
 	  			<div class="search">
-					<a href="#" data-dropdown="drop1" class="button dropdown large-2 columns">Type</a>
+	  			<div class="small-2 columns">
+	  				<a href="#" data-dropdown="drop1" class="button dropdown">Type</a>
 					<ul id="drop1" class="f-dropdown">
 						  <li><a href="#">Manuscrits</a></li>
 						  <li><a href="#">Musique</a></li>
 						  <li><a href="#">Vidéo</a></li>
-					</ul>	
-
-					<input type="text" class="large-9 columns champ"/>
-
-					<a href="#" class="button">OK</a>
-				</div>
+					</ul>
+	  			</div>
+	  			<div class="small-8 columns">
+	  				<input style="height: 40px;" type="text"/>
+	  			</div>
+	  			<div class="small-2 columns">
+	  				<a href="#" class="button">OK</a>
+	  			</div>
+	  		</div>
 			</div>
 		</div>
 	</div>

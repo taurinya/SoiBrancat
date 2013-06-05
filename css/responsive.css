@@ -1,4 +1,4 @@
-w/* Medium screens */
+/* Medium screens */
 @media only screen and (max-width: 1279px) and (min-width: 768px) { 
 
 	input[type="text"] {
@@ -14,7 +14,6 @@ w/* Medium screens */
 		height: 0px;
 	}
 }
-
 
 /* Medium screens on lanscape orientation */
 @media only screen and (max-width: 1279px) and (min-width: 768px) and (orientation: portrait) {

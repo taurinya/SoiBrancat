@@ -162,7 +162,7 @@ nav.top-bar{
 }
 
 .top-bar-section li a:not(.button){
-	background: #414141;
+	background: #414141
 }
 
 .top-bar-section li a:hover:not(.button){
@@ -240,6 +240,26 @@ footer .suppad{
 
 /* ITEM */
 
+.share{
+	padding-right: 0;
+}
+
+.button.sharing {
+	background-color: #7E2259;
+	color:#FFF;
+	border-radius: 15px;
+	border: 1px solid inset #7E2259;
+	float: right;
+	margin-top: 7px;
+}
+
+.button.sharing:hover{
+	border-color:#7E2259;
+}
+
+.titreRessource {
+	padding-left: 0;
+}
 
 .type {
 	line-height: 50px;

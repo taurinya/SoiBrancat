@@ -153,16 +153,16 @@ h5 {
 /* Top bar */
 
 .contain-to-grid{
-	background: #000;
+	background: #414141;
 }
 
 
 nav.top-bar{
-	background: #000;
+	background: #414141;
 }
 
 .top-bar-section li a:not(.button){
-	background: #000;
+	background: #414141
 }
 
 .top-bar-section li a:hover:not(.button){
@@ -265,6 +265,10 @@ footer .suppad{
 
 .button.sharing:hover{
 	border-color:#7E2259;
+}
+
+.titreRessource {
+	padding-left: 0;
 }
 
 .type {

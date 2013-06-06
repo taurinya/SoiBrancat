@@ -235,10 +235,8 @@ footer {
 .button.sharing {
 	background-color: #7E2259;
 	color:#FFF;
-	border-radius: 15px;
+	border-radius: 3px;
 	border: 1px solid inset #7E2259;
-	float: right;
-	margin-top: 7px;
 }
 
 .button.sharing:hover{
@@ -286,7 +284,6 @@ footer {
 .mainBlock {
 	background: #FFFFFF;
 	box-shadow: 2px 2px 20px #888;
-	padding: 0 15px 0 15px;
 }
 
 .subSearch {

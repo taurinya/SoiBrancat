@@ -58,25 +58,29 @@
 	<!-- logo & search -->
 
 <div class="row">
-		<div class="small-4 large-6 columns">
-			<div id="logo"></div>
+		<div class="large-4 columns hide-for-small">
+			<div><img src="img/logo/logo_test.png"></div>
 		</div>
-		<div class="small-6 large-6 columns searchContainer">
-			<div class="row">
-				<div class="search">
-					<div class="small-3 columns">
+		<div class="small-12 large-6 columns">
+			<div class="searchContainer">
+				<div class="row">
+					<div class="large-3 columns hide-for-small nopaddingRight">
 						<a href="#" data-dropdown="drop1" class="button dropdown">Type</a>
-							<ul id="drop1" class="f-dropdown">
-						  		<li><a href="#">Manuscrits</a></li>
-						  		<li><a href="#">Musique</a></li>
-						  		<li><a href="#">Vidéo</a></li>
-								</ul>
+						<ul id="drop1" class="f-dropdown">
+						  	<li><a href="#">Manuscrits</a></li>
+						  	<li><a href="#">Musique</a></li>
+						  	<li><a href="#">Vidéo</a></li>
+						</ul>
 					</div>
-					<div class="small-6 large-centered columns">
-						<input style="height: 40px;" type="text"/>
+					<div class="small-1 hide-for-large columns nopadding">
 					</div>
-					<div class="small-1 large-2 columns" style="margin-top:-54px;text-align:left;">
-						<a href="#" class="button">OK</a>
+					<div class="small-9 large-8 columns nopadding">
+						<input class="champSearch" type="text"/>
+					</div>
+					<div class="small-1 large-1 columns nopadding">
+						<a href="#" class="button oc">Go</a>
+					</div>
+					<div class="small-1 hide-for-large columns nopadding">
 					</div>
 				</div>
 			</div>
@@ -84,66 +88,65 @@
 	</div>
 
 	<div class="row">
-		<div class="small-4 columns space">
+		<div class="small-4 large-4 columns space">
 			<nav class="breadcrumbs">
 				<a href="#">Accueil</a>
 				<a class="current" href="#">Ressources</a>
 			</nav>
 		</div>
+		<div class="small-6 large-4 columns"></div>
+		<div class="small-5 large-4 columns nbredoc space">
+			X documents
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="small-12 large-10 columns">
+			<h1>Les cahiers de Max Rouquette - Mars 2007</h1>
+		</div>
+		<div class="small-12 large-2 columns">
+			<div class="button sharing" data-reveal-id="share">
+				Partagez ! 
+			</div>
+		</div>	
 	</div>
 
 	<div class="row">
-		<div class="small_12 columns space">
-			<div class="row">
-				<div class="small-12 columns">
-					<div class="row">
-						<div class="small-10 columns titreRessource">
-							<h1>Les cahiers de Max Rouquette - Mars 2007</h1>
-						</div>
-						<div class="small-2 columns share">
-							<div class="button sharing" data-reveal-id="share">
-								Partagez ! 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="small-12 columns mainBlock">
+			<h3>Présentation</h3>
+			<p>Fusce molestie orci nec erat eleifend vel posuere metus tempus. Sed mollis sagittis sapien, vel ultricies turpis condimentum ac. Nullam accumsan viverra laoreet. Praesent sed enim mauris. Duis viverra pretium mattis. Aliquam pellentesque diam sed felis egestas sit amet tristique urna tincidunt. Nam eu est sit amet nulla volutpat suscipit sit amet id justo. Fusce lectus massa, blandit quis euismod a, tempor vel odio. Sed auctor metus malesuada eros varius et tincidunt odio feugiat. Fusce eget egestas turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="small-12 columns itemBg mainBlock space">
+			<h3>Description</h3><br/>
 			<div class="row">
-				<div class="small-12 columns itemBg mainBlock">
-					<h3>Présentation</h3>
-					<p>Fusce molestie orci nec erat eleifend vel posuere metus tempus. Sed mollis sagittis sapien, vel ultricies turpis condimentum ac. Nullam accumsan viverra laoreet. Praesent sed enim mauris. Duis viverra pretium mattis. Aliquam pellentesque diam sed felis egestas sit amet tristique urna tincidunt. Nam eu est sit amet nulla volutpat suscipit sit amet id justo. Fusce lectus massa, blandit quis euismod a, tempor vel odio. Sed auctor metus malesuada eros varius et tincidunt odio feugiat. Fusce eget egestas turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				<div class="small-6 columns">
+					<ul class="listing">
+						<li>Titre complet</li>
+						<li>Editeur(s)</li>
+						<li>Langue(s)</li>
+						<li>Format original</li>
+						<li>Sujet(s)</li>
+						<li>Licence</li>
+					</ul>
+				</div>
+				
+				<div class="small-6 columns">
+					<ul class="listing">
+						<li>Auteur(s)</li>
+						<li>Date d'édition</li>
+						<li>Type de document</li>
+						<li>Droits</li>
+						<li>Localisation du document</li>
+						<li>Périmètre spatial et temporel</li>
+					</ul>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="small-12 small-centered columns itemBg mainBlock space">
-					<h3>Description</h3><br/>
-					<div class="row">
-						<div class="small-6 columns">
-							<ul class="listing">
-								<li>Titre complet</li>
-								<li>Editeur(s)</li>
-								<li>Langue(s)</li>
-								<li>Format original</li>
-								<li>Sujet(s)</li>
-								<li>Licence</li>
-							</ul>
-						</div>
-						
-						<div class="small-6 columns">
-							<ul class="listing">
-								<li>Auteur(s)</li>
-								<li>Date d'édition</li>
-								<li>Type de document</li>
-								<li>Droits</li>
-								<li>Localisation du document</li>
-								<li>Périmètre spatial et temporel</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+	</div>
 
 			<!--<div class="row">
 				<div class="small-12 columns itemBg mainBlock space">
@@ -167,22 +170,16 @@
 
 <footer class="space">
 	<div class="row">
-		<div class="large-2 columns suppad space">
+		<div class="small-3 columns">
 			<img src="http://placehold.it/80x80" />
 		</div>
-		<div class="large-2 columns suppad space">
+		<div class="small-3 columns">
 			<img src="http://placehold.it/80x80" />
 		</div>
-		<div class="large-2 columns suppad space">
+		<div class="small-3 columns">
 			<img src="http://placehold.it/80x80" />
 		</div>
-		<div class="large-2 columns suppad space">
-			<img src="http://placehold.it/80x80" />
-		</div>
-		<div class="large-2 columns suppad space">
-			<img src="http://placehold.it/80x80" />
-		</div>
-		<div class="large-2 columns suppad space">
+		<div class="small-3 columns">
 			<img src="http://placehold.it/80x80" />
 		</div>
 	</div>

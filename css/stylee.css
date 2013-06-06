@@ -506,7 +506,7 @@ button:active, .button:active {
 
 /* ACCUEIL */
 
-.fondRubrique{
+.fondRubrique {
 	background-color: rgba(126,34,89,1);
 }
 
@@ -525,16 +525,15 @@ button:active, .button:active {
 	margin-top: 0;
 }
 
-.bkgColor{
+.bkgColor {
 	background-color: #E1E1E1;
 }
 
 .agenda {
-	height: 275px;
 	background-color: #E1E1E1;
 }
 
-.ressource{
+.ressource {
 	padding-left: 2px;
 	padding-right: 2px;
 }
@@ -543,12 +542,12 @@ button:active, .button:active {
 	margin-top: 3px;
 }
 
-.padd{
+.padd {
 	padding-left: 3px;
 	padding-right: 3px;
 }
 
-.txt{
+.txt {
 	font-size: 12px;
 	color:#FFF;
 	text-align: justify;
@@ -557,23 +556,29 @@ button:active, .button:active {
 	background-color: #555;
 }
 
-.txtCitation{
+.txtCitation {
 	text-align: justify;
 	padding: 10px 15px 20px 10px;
 }
 
-.tip1{
+.txtAgenda {
+	text-align: justify;
+	padding: 14px 15px 20px 10px;
+}
+
+.tip1 {
 	background: #EED024;
 }
 
-.tip2{
+.tip2 {
 	background: #AECB79;
 }
 
-.tip3{
+.tip3 {
 	background: #739974;
 }
 
-.tip4{
+.tip4 {
     background: #BA4519;
 }
+

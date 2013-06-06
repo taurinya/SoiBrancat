@@ -199,7 +199,7 @@ nav.top-bar{
 }
 
 .space {
-	margin: 15px 0 10px 0;
+	margin: 3px 0 0 0;
 }
 
 .end {
@@ -510,36 +510,66 @@ button:active, .button:active {
 	background-color: rgba(126,34,89,1);
 }
 
+.fondtitleB{
+	background-color: transparent;
+}
+
 .blockTitle {
 	font-weight: normal;
-	font-size: 26px;
+	font-size: 23px;
 	color: #FFF;
 	margin-top: 0;
 	margin-left: 10px;
 }
 
+.blockTitleB {
+	font-weight: bold;
+	font-size: 19px;
+	color: #7E2259;
+	margin-top: 0;
+}
 
-.qr {
-	height: 250px;
-	background-color: #F1F1F1;
+.bkgColor{
+	background-color: #E1E1E1;
 }
 
 .agenda {
-	height: 360px;
-	background-color: #F1F1F1;
+	height: 307px;
+	background-color: #E1E1E1;
 }
 
-.discover {
-	height: 545px;
-	background-color: #F1F1F1;
-}
 
 .smallBlock{
-	height: 175px;
 	background-color: #F1F1F1;
+}
+
+.ressource{
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 .marginTop {
-	margin-top: 10px;
+	margin-top: 3px;
 }
 
+.padd{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.txt{
+	text-align: justify;
+	padding: 5px 15px 10px 17px;
+	margin-bottom: 20px;
+	background-color: rgba(126,34,89,0.5);
+}
+
+.txt2{
+	text-align: justify;
+	padding: 10px 15px 20px 10px;
+}
+
+
+.test {
+	padding-left: 0;
+}

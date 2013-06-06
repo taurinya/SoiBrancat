@@ -506,15 +506,11 @@ button:active, .button:active {
 
 /* ACCUEIL */
 
-.fondtitle{
+.fondRubrique{
 	background-color: rgba(126,34,89,1);
 }
 
-.fondtitleB{
-	background-color: transparent;
-}
-
-.blockTitle {
+.titleBlock {
 	font-weight: normal;
 	font-size: 23px;
 	color: #FFF;
@@ -522,7 +518,7 @@ button:active, .button:active {
 	margin-left: 10px;
 }
 
-.blockTitleB {
+.titleQuestion {
 	font-weight: bold;
 	font-size: 19px;
 	color: #7E2259;
@@ -534,13 +530,8 @@ button:active, .button:active {
 }
 
 .agenda {
-	height: 307px;
+	height: 275px;
 	background-color: #E1E1E1;
-}
-
-
-.smallBlock{
-	background-color: #F1F1F1;
 }
 
 .ressource{
@@ -558,18 +549,31 @@ button:active, .button:active {
 }
 
 .txt{
+	font-size: 12px;
+	color:#FFF;
 	text-align: justify;
 	padding: 5px 15px 10px 17px;
 	margin-bottom: 20px;
-	background-color: rgba(126,34,89,0.5);
+	background-color: #555;
 }
 
-.txt2{
+.txtCitation{
 	text-align: justify;
 	padding: 10px 15px 20px 10px;
 }
 
+.tip1{
+	background: #EED024;
+}
 
-.test {
-	padding-left: 0;
+.tip2{
+	background: #AECB79;
+}
+
+.tip3{
+	background: #739974;
+}
+
+.tip4{
+    background: #BA4519;
 }

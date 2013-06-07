@@ -506,10 +506,6 @@ button:active, .button:active {
 
 /* ACCUEIL */
 
-.fondRubrique {
-	background-color: rgba(126,34,89,1);
-}
-
 .titleBlock {
 	font-weight: normal;
 	font-size: 23px;
@@ -582,3 +578,27 @@ button:active, .button:active {
     background: #BA4519;
 }
 
+.tip5 {
+    background: #719973;
+}
+
+.tip6 {
+    background: #FEB241;
+}
+
+.tip7 {
+    background: #7D2057;
+}
+
+.tip8 {
+    background: #FEB241;
+}
+
+
+.test {
+	padding: 0;
+}
+
+.test2 {
+	padding-right: 0;
+}

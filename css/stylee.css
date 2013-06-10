@@ -217,9 +217,6 @@ nav.top-bar{
 	line-height: 30px;
 }
 
-.item {
-	font-size: 14px;
-}
 
 footer {
 	width: 100%;
@@ -390,13 +387,7 @@ footer .suppad{
 	opacity: 1;
 }
 
-
-
-
-
-
-
-/* Résultats */
+/*    ---- Résultats ---- */
 
 .breadcrumbs a {
 	color:#000;
@@ -435,7 +426,7 @@ footer .suppad{
 }
 
 
-/* Recherche (petit) */
+/* ---- RECHERCHE ----  */
 
 input.champSearch{
 	height:40px;
@@ -500,11 +491,7 @@ button:active, .button:active {
 	float: right;
 }
 
-
-
-
-
-/* ACCUEIL */
+/*   ---- ACCUEIL ---- */
 
 .titleBlock {
 	font-weight: normal;
@@ -514,15 +501,16 @@ button:active, .button:active {
 	margin-left: 10px;
 }
 
-.titleBlock.item{
-	margin-bottom: 0;
-}
-
 .titleQuestion {
 	font-weight: bold;
 	font-size: 19px;
 	color: #7E2259;
 	margin-top: 0;
+}
+
+.padd {
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 .bkgColor {
@@ -540,11 +528,6 @@ button:active, .button:active {
 
 .marginTop {
 	margin-top: 3px;
-}
-
-.padd {
-	padding-left: 3px;
-	padding-right: 3px;
 }
 
 .txt {
@@ -565,6 +548,24 @@ button:active, .button:active {
 	text-align: justify;
 	padding: 14px 15px 20px 10px;
 }
+
+.paddDiscover {
+	padding: 0;
+}
+
+.paddBlock {
+	padding-right: 0;
+}
+
+.faq {
+	padding-bottom: 245px;
+}
+
+.quest{
+	padding-bottom: 94px;
+}
+
+/*   ---- FONDS COULEUR ---- */
 
 .tip1 {
 	background: #EED024;
@@ -598,24 +599,18 @@ button:active, .button:active {
     background: #FEB241;
 }
 
-
-.paddDiscover {
-	padding: 0;
-}
-
-.paddBlock {
-	padding-right: 0;
-}
+/*   ---- PAGE d'ITEM ---- */
 
 .section-container.auto > section .content, .section-container.auto > .section .content {
 	background-color: #E1E1E1;
 	border: none;
 }
 
-.faq {
-	padding-bottom: 245px;
+.titleBlock.item {
+	margin-bottom: 0;
 }
 
-.quest{
-	padding-bottom: 94px;
+.Com {
+	font-size: 20px;
+	font-weight: bold;
 }

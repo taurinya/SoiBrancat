@@ -217,6 +217,7 @@ nav.top-bar{
 	line-height: 30px;
 }
 
+/* footer */
 
 footer {
 	width: 100%;
@@ -301,91 +302,6 @@ footer .suppad{
 .subSearch {
 		padding: 0 0 0 7px;
 	}
-
-/* RESSOURCES */
-
-.liste{
-	margin-left: 10px;
-}
-
-.category {
-	width: 200px;
-    height: 200px;
-    background-color: #25252;
-    position: relative;
-    overflow: hidden;
-}
-
-.category img {
-    display: block;
-    position: relative;
-    top: -30%;
-	height: 200px;
-}
-
-.category a {
-    display: block;
-    z-index: 100;
-    position: relative;
-    height: 100%;
-}
-
-.category a {
-	text-align: center;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 0;
-    margin-top: 60px;
-    color:#C7C7C7;
-}
-
-.category p a {
-	color: transparent;
-    font-size:20px;
-}
-
-.category .txtup a {
-	margin-top: 20px;
-}
-
-.category .txtdown a {
-	margin-top: 30px;
-}
-
-.category:hover {
-    background: rgba(0,0,0, 0.9);
-    z-index: 100;
-}
-
-.category:hover a {
-    color: #FFF;
-}
-
-.category:hover .imgcategory {
-    opacity: 0;
-}
-
-.category img {
-   transition: opacity 0.5s;
-}
-
-.typecategory{
-	z-index: 100;
-	position: relative;
-	opacity: 0;
-}
-
-.typecategory img{
-	width: 50px;
-	height: 50px;
-	margin-top: 100px;
-	margin-left: 75px;
-}
-
-.category:hover .typecategory{
-	opacity: 1;
-}
 
 /*    ---- Résultats ---- */
 
@@ -565,6 +481,10 @@ button:active, .button:active {
 	padding-bottom: 94px;
 }
 
+.margeNegative{
+	margin-top: -12px;
+}
+
 /*   ---- FONDS COULEUR ---- */
 
 .tip1 {
@@ -613,4 +533,8 @@ button:active, .button:active {
 .Com {
 	font-size: 20px;
 	font-weight: bold;
+}
+
+fieldset{
+	margin: 0;
 }
